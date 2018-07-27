@@ -11,5 +11,4 @@ ENV INVENTORY     hosts
 RUN mkdir /lmport
 WORKDIR /lmport
 
-ENTRYPOINT ["phinx"]
-CMD ["list"]
+ENTRYPOINT ["ansible"]
