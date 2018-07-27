@@ -1,5 +1,5 @@
 # escape=`
-FROM FROM williamyeh/ansible:alpine3
+FROM williamyeh/ansible:alpine3
 
 LABEL version="1.0"
 LABEL maintainer="Bill Westhead"
