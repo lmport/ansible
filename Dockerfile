@@ -12,3 +12,4 @@ RUN mkdir /lmport
 WORKDIR /lmport
 
 ENTRYPOINT ["ansible"]
+CMD ["--version"]
